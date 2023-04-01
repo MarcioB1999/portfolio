@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Code;
+    src: url(fontes/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: game;
+    src: url(fontes/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+body{
+    background-color: #012030;
+    font-family: Code;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #13678A;
+}
+
+.titulo{
+    font-family: game;
+    color: #DAFDBA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secundario{
+    padding: 5px;
+    font-size: 25px;
+}
+
+h1{
+    margin: 0;
+    font-family: game;
+    color: #DAFDBA;
+}
+
+h2{
+    margin: 10px;
+    font-family: game;
+    color: #DAFDBA;
+}
+
+hr{
+    margin: 0;
+    border-color: #DAFDBA;
+}
+
+main{
+    height: 1500px;
+}
+
+div{
+    background-color: black;
+    height: 200px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+div#apresentacao{
+    background-color: #13678A;
+    margin-bottom: 40px;
+    height: 550px;
+    
+}
+
+.inside{
+    margin: 0;
+    width: 510.5px;
+
+}
+
+.direita{
+    background-color: black;
+    margin-left: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: right;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+.esquerda{
+    margin-right: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+p{
+    color: #DAFDBA;
+    margin: 0;
+    width: 600px;
+    height: 150px;
+    display: inline-block;
+    padding: 3px;
+}
+
+img{
+    width: 200px;
+    display: inline-block;
+}
+
+.png{
+    background-color: white;
+}
+
