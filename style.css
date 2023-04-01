@@ -61,7 +61,7 @@ main{
 
 div{
     background-color: black;
-    height: 200px;
+    height: 150px;
     padding: 0;
     margin-bottom: 40px;
 }
@@ -75,28 +75,30 @@ div#apresentacao{
 
 .inside{
     margin: 0;
-    width: 510.5px;
+    width: 650px;
 
 }
 
 .direita{
     background-color: black;
-    margin-left: 200px;
+    margin-left: 150px;
     display: flex;
     align-items: start;
     justify-content: right;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
+    box-shadow: -1px 3px 1px #DAFDBA;
     
 }
 
 .esquerda{
-    margin-right: 200px;
+    margin-right: 150px;
     display: flex;
     align-items: start;
     justify-content: left;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+    box-shadow: 2px 3px 1px #DAFDBA;
 }
 
 p{
@@ -109,7 +111,7 @@ p{
 }
 
 img{
-    width: 200px;
+    width: 150px;
     display: inline-block;
 }
 
